@@ -33,8 +33,8 @@
 
   div {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.1rem 0;
+    grid-template-columns: repeat(3, calc((100% / 3) - 2px));
+    gap: 1px 0;
   }
 
   div p {
