@@ -18,6 +18,7 @@
     <p>D</p>
     <img src="/eva.jpg" alt="Eef">
   </div>
+  <span>&copy; Lesley, Akiko, Rukiya, Zainab & Eef</span>
 </main>
 
 <style>
@@ -27,14 +28,28 @@
     color: var(--turquoise);
   }
 
+  h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+
   img {
     width: 6.6rem;
+  }
+
+  section {
+    margin: 1rem 0 3rem 0;
   }
 
   div {
     display: grid;
     grid-template-columns: repeat(3, calc((100% / 3) - 2px));
     gap: 1px 0;
+    margin-bottom: 4em;
   }
 
   div p {
@@ -47,5 +62,11 @@
 
   div img {
     margin: 0 auto;
+  }
+  
+  span {
+    margin: 2em 0;
+    display: flex;
+    align-items: flex-end;
   }
 </style>
