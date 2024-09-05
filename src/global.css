@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* ---------- Colors ---------- */
+
+:root {
+  --white: #fff;
+  --blueberry: #050542;
+  --turquoise: #66e5bf;
+  --lavender: #a675f5;
+}
+
+/* ---------- General Styles ---------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
