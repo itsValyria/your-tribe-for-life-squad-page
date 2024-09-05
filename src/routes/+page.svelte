@@ -8,15 +8,15 @@
     <p>We are enthousiastic students who are studying Front-End Development and Design at the Amsterdam University of Applied Sciences.</p>
   </section>
   <div>
-    <img src="/lesley.jpg" alt="Lesley">
+    <a href="/Lesley"><img src="/lesley.jpg" alt="Lesley"></a>
     <p>F</p>
-    <img src="/akiko.jpg" alt="Akiko">
+    <a href="/Akiko"><img src="/akiko.jpg" alt="Akiko"></a>
     <p>D</p>
-    <img src="/rukiya.jpg" alt="Rukiya">
+    <a href="/Rukiya"><img src="/rukiya.jpg" alt="Rukiya"></a>
     <p>N</p>
-    <img src="/zainab.jpg" alt="Zainab">
+    <a href="/Zainab"><img src="/zainab.jpg" alt="Zainab"></a>
     <p>D</p>
-    <img src="/eva.jpg" alt="Eef">
+    <a href="/Eva"><img src="/eva.jpg" alt="Eef"></a>
   </div>
   <span>&copy; Lesley, Akiko, Rukiya, Zainab & Eef</span>
 </main>
@@ -37,8 +37,13 @@
     margin-bottom: 1rem;
   }
 
+  a {
+    display: inline-block;
+  }
+
   img {
     width: 6.6rem;
+    height: auto;
   }
 
   section {
@@ -47,8 +52,7 @@
 
   div {
     display: grid;
-    grid-template-columns: repeat(3, calc((100% / 3) - 2px));
-    gap: 1px 0;
+    grid-template-columns: repeat(3, 1fr);
     margin-bottom: 4em;
   }
 
